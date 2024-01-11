@@ -1,0 +1,111 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1b2838;
+    color: white;
+}
+
+header {
+    background-color: #171a21;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+}
+
+.user-actions button {
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.user-actions button.logout {
+    background-color: #d9534f;
+}
+
+.user-actions button.logout:hover {
+    background-color: #c9302c;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.game-info {
+    width: 60%;
+    padding: 2em;
+    background-color: #232a31;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 50px; /* Adjust the margin-top as needed */
+}
+
+.game-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.game-images img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 5px;
+}
+
+h2, p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+/* 新增的樣式 */
+.underline {
+    border-bottom: 2px solid #5cb85c;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.description {
+    margin-top: 20px;
+}

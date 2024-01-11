@@ -1,0 +1,75 @@
+/* Styles for the home page */
+
+h1 {
+    color: white;
+    position: absolute;
+    top: 30px; /* Distance from the top border, adjust as needed */
+    left: 10px; /* Distance from the right border, adjust as needed */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0f106e;
+    color: #fff;
+    padding: 2em;
+    text-align: right;
+}
+
+section {
+    margin: 20px;
+}
+
+.game {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Newly added styles */
+.login-btn, .logout-btn, .buying-btn {
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.login-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.logout-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.buying-btn {
+    color: white;
+    padding: 10px 10px;
+}
